@@ -1,25 +1,4 @@
 # WSBC Discord Bot
 Main Discord Bot for WallStreetBets Coin.
 
-### Building
-1. Install [.NET 5 Runtime](https://dotnet.microsoft.com/download/dotnet/5.0).
-2. Build the solution.
-3. Publish the "WSBC.DiscordBot" project - [instructions](https://docs.microsoft.com/en-gb/dotnet/core/tutorials/publishing-with-visual-studio).
-
-### Configuration
-To run, bot requires that you create `appsecrets.json` file with bot secrets. See [appsecrets-example.json](WSBC.DiscordBot/appsecrets-example.json) for examples.  
-If running from VS, you should ensure that file has Build Action of `Content` with Copying to Output Directory enabled. Otherwise simply add that file to your built bot directory.
-
-`Discord:BotToken` is mandatory. You can create it on [Discord Developer Portal](https://discord.com/developers/applications/).
-
-`Logging:DataDog:ApiKey` is optional - remove it to disable DataDog logs. To get DataDog API Key, visit [DataDog Integrations Settings](https://app.datadoghq.com/account/settings#api).
-
-Other logging configuration, such as file path, can be configured in [appsettings.json](WSBC.DiscordBot/appsettings.json) with `Logging` section. Refer to [Serilog.Settings.Configuration README](https://github.com/serilog/serilog-settings-configuration#serilogsettingsconfiguration--).
-
-### Running
-Run bot using `dotnet WsbcDiscordBot.dll` command. Alternatively if published to .exe, simply run the executable.
-
-## License
-Copyright (c) 2021 TehGM and WallStreetBetsCoin Developers
-
-Licensed under [GNU Affero General Public License v3.0](LICENSE) (GNU AGPL-3.0).
+This repo is archived - any further development will be done on forked [wsbc-coin repository](https://github.com/wsbc-coin/WSBC-DiscordBot).
